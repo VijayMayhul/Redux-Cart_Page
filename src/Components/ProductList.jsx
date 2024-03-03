@@ -39,7 +39,7 @@ const ProductList = () => {
     dispatch(DecreaseQuantity(param));
   };
 
-  //through removeCart function we trigger the RemoveCart action using dispatch method to remove the product from the cartData
+  //through removeCart function we trigger the RemoveCart action using dispatch method to remove the particular product from the cartData
   const removeCart = (id) => {
     dispatch(RemoveCart(id));
   };

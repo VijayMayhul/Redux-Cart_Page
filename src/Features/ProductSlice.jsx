@@ -1,7 +1,7 @@
 //Importing createSlice from @reduxjs/toolkit third party library to create slice
 import { createSlice } from "@reduxjs/toolkit";
 
-//Importing data which is out source data
+//Importing data which is our source data
 import { data } from "../../data";
 
 // creating slice to give state and reducer to components and store
